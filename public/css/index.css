@@ -1,0 +1,70 @@
+h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.tabela-cadastro {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.tabela-cadastro button {
+    background: green;
+    color: white;
+}
+
+.tabela-usuarios {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+  }
+
+table tr th {
+      font-weight: bold;
+  }
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+.id {
+    text-align: center;
+    font-weight: bold;
+  }
+
+.centralizar-editar
+  {
+    text-align: center;
+  }
+
+.centralizar-editar button {
+    background: blue;
+    color: white;
+  }
+
+.centralizar-excluir {
+    text-align: center;
+  }
+
+.centralizar-excluir button {
+    background: red;
+    color: white;
+  }
